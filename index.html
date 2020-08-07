@@ -1,53 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="logo.png" class="logo" alt="David Ismail" title="David Ismail">
+            </a>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                    <a href="#serv">Services</a>
+                    <a href="#port">Portofolio</a>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End of Header -->
+    
+    <!-- Main Content -->
+    <main>
+        <div class="hero">
+            <p>Hello,</p>
+            <p>I'm <span>David.</span></p>
+            <p>Have any project in your mind? Contact Me.</p>
+            <a href="#contact"><button>Hire Me!</button></a>
+            <a href="#"><button>Download CV</button></a>
+            <img src="hero.svg" alt="">
+        </div>
 
-	<div class="jumbotron text-center">
-		<img src="img/picture.jpg" class="rounded-circle">
-		<h1>Muhammad David Ismail MS</h1>
-		<p>Full Stack Developer</p>
-	</div>
+        <!-- About Section -->
+        <section id="about">
+            <div class="about">
+                <h1>About Me</h1>
+                <h3>Allow Me to Introduce Myself</h3>
+                <div class="article">
+                    <article class="al">
+                        <img class="persona" src="1.jpg" alt="">
+                    </article>
+                    <article class="ar">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Rerum aspernatur sapiente dolorem officia ipsa alias sed, minus a, nisi illo incidunt sint!
+                        Necessitatibus omnis tempora sapiente aperiam, earum ipsam dignissimos.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Nostrum commodi reprehenderit officiis, perspiciatis necessitatibus at praesentium facere, itaque ullam illo nulla? Nemo ex veritatis eaque vel rerum molestiae veniam similique.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- End of About Section -->
 
-	<section>
-		<div class="about" id="about">
-			<div class="container">	
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<h2>About</h2>
-						<hr>
-					</div>	
-				</div>
-				<div class="row content-md-center">
-					<div class="col-md-4">
-						<h4>Pendidikan</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat.</p>
-					</div>
-					<div class="col-md-4">
-						<h4>Pengalaman</h4>
-						<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-					<div class="col-md-4">
-						<h4>Teknologi</h4>
-						<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+        <!-- Services Content -->
+        <section id="serv">
+            <div class="serv">
+
+            </div>
+        </section>
+        <!-- End of Services -->
+
+        <!-- Portofolio Section -->
+        <section id="port">
+            <div class="port">
+
+            </div>
+        </section>
+        <!-- End of Portofolio -->
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact">
+                <article class="l">
+                <form action="">
+                    <label for="name">Nama Lengkap :</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Pesan :</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                    <input type="submit" id="submit" value="Kirim">
+                </form>
+                </article>
+
+                <article class="r">
+                    <h1>Get In Touch</h1>
+                </article>
+            </div>
+        </section>
+        <!-- End of Contact -->
+    </main>
+    <!-- End of Main Content -->
+
+    <section class="content">
+        <div class="a">
+            <img src="logo.png" alt="" height="80px">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Excepturi adipisci, inventore omnis autem minus optio earum exercitationem blanditiis est voluptates,
+            nesciunt nemo voluptatum, eaque quasi iure deserunt doloribus fuga assumenda.
+            </p>
+        </div>
+        <div class="b">
+            <h3>Services</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile Development</li>
+                <li>Game Development</li>
+            </ul>
+        </div>
+        <div class="c">
+            <h3>Get In Touch</h3>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy 2020 | Muhammad David Ismail MS</p>
+    </footer>
+    <!-- End of Footer -->
 
 </body>
 </html>
